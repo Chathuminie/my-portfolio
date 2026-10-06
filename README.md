@@ -1,16 +1,41 @@
-# React + Vite
+# Chathumini Jayalath - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and Vite to showcase my skills, projects, and interests in software development, artificial intelligence, and machine learning.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I am a Computer Science graduate interested in building practical software solutions, modern web applications, and intelligent systems.
 
-## React Compiler
+This portfolio highlights my technical skills and selected projects, including SafeSynth-FR, a privacy-preserving facial recognition system developed using synthetic data, deep learning, computer vision, and Flask.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Project
 
-## Expanding the ESLint configuration
+### SafeSynth-FR
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+SafeSynth-FR is a privacy-preserving facial recognition system designed to reduce the use of real biometric datasets by using synthetic facial data.
+
+Main technologies used:
+
+- Python
+- Flask
+- TensorFlow
+- Keras
+- MobileNetV2
+- OpenCV
+
+The system supports image upload recognition and real-time webcam recognition.
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Chathuminie/my-portfolio.git
