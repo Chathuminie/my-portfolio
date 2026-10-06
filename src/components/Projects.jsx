@@ -1,14 +1,23 @@
 import safesynthImage from "../assets/safesynth-dashboard.png";
+
 function Projects() {
   return (
     <section id="projects" className="projects-section">
-        
       <div className="projects-container">
 
-        <p className="section-label">My Work</p>
-        <h2>Featured Projects</h2>
+        <div className="projects-heading">
+          <p className="section-label">My Work</p>
+          <h2>Featured Project</h2>
+        </div>
 
         <div className="project-card">
+
+          <div className="project-image">
+            <img
+              src={safesynthImage}
+              alt="SafeSynth-FR dashboard"
+            />
+          </div>
 
           <div className="project-info">
 
@@ -19,21 +28,19 @@ function Projects() {
             <h3>SafeSynth-FR</h3>
 
             <p className="project-subtitle">
-              Privacy-Preserving, Fair and Robust Face Recognition
-              Using Synthetic Data
+              Privacy-Preserving, Fair & Robust Face Recognition
             </p>
 
             <p>
-              SafeSynth-FR is an end-to-end facial recognition system
-              designed to reduce the privacy risks associated with
-              collecting real biometric facial data.
+              SafeSynth-FR is an end-to-end facial recognition system designed
+              to reduce privacy risks by using synthetic facial data instead of
+              real biometric datasets.
             </p>
 
             <p>
-              The system is trained using synthetic facial data and uses
-              MobileNetV2 for deep-learning-based face recognition,
-              Haar Cascade for face detection, and a Flask web application
-              for real-time recognition through image uploads and webcam input.
+              The system combines deep learning, computer vision and a
+              Flask-based web application to support image upload recognition
+              and real-time webcam recognition.
             </p>
 
             <div className="project-tech">
@@ -43,72 +50,38 @@ function Projects() {
               <span>Keras</span>
               <span>MobileNetV2</span>
               <span>OpenCV</span>
-              <span>Haar Cascade</span>
-              <span>Deep Learning</span>
-              <span>Computer Vision</span>
             </div>
 
-            <div className="project-image">
-              <img
-               src={safesynthImage}
-               alt="SafeSynth-FR dashboard interface"
-              />
-           </div>
+            <div className="project-stats">
 
-            <div className="project-features">
+              <div>
+                <strong>93.33%</strong>
+                <span>Classification Accuracy</span>
+              </div>
 
-              <h4>Key Features</h4>
+              <div>
+                <strong>30</strong>
+                <span>Synthetic Identities</span>
+              </div>
 
-              <ul>
-                <li>Privacy-preserving recognition using synthetic facial data</li>
-
-                <li>
-                  Image upload-based face recognition
-                </li>
-
-                <li>
-                  Real-time webcam face detection and recognition
-                </li>
-
-                <li>
-                  Recognition of known and unknown individuals
-                </li>
-
-                <li>
-                  Masked and partially occluded face testing
-                </li>
-
-                <li>
-                  Robustness testing under different lighting conditions
-                </li>
-
-                <li>
-                  Confidence-based prediction results
-                </li>
-              </ul>
+              <div>
+                <strong>Real-Time</strong>
+                <span>Webcam Recognition</span>
+              </div>
 
             </div>
 
             <div className="project-buttons">
-
-              <a
-                href="#"
-                className="primary-btn"
-              >
+              <a href="#" className="primary-btn">
                 View Project
               </a>
 
-              <a
-                href="#"
-                className="secondary-btn"
-              >
+              <a href="#" className="secondary-btn">
                 GitHub
               </a>
-
             </div>
 
           </div>
-
         </div>
 
       </div>
