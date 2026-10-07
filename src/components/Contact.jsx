@@ -14,20 +14,27 @@ function Contact() {
           with me through GitHub and LinkedIn.
         </p>
 
-        <form className="contact-form">
+        <form
+          className="contact-form"
+          action="https://formspree.io/f/xkjoovdg"
+          method="POST"
+        >
           <input
             type="text"
+            name="name"
             placeholder="Your Name"
             required
           />
 
           <input
             type="email"
+            name="email"
             placeholder="Your Email"
             required
           />
 
           <textarea
+            name="message"
             placeholder="Your Message"
             rows="6"
             required
@@ -40,7 +47,7 @@ function Contact() {
 
         <div className="contact-socials">
           <a
-            href="https://github.com/YOUR-USERNAME"
+            href="https://github.com/Chathuminie"
             target="_blank"
             rel="noreferrer"
           >
@@ -48,14 +55,14 @@ function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/YOUR-LINKEDIN/"
+            href="https://www.linkedin.com/in/chathumini-jayalath-115000267/"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
           </a>
 
-          <a href="mailto:YOUR-EMAIL">
+          <a href="mailto:chathuminijayalath2020@gmail.com">
             Email
           </a>
         </div>
