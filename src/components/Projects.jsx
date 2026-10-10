@@ -1,10 +1,15 @@
 import safesynthImage from "../assets/safesynth-dashboard.png";
 import heartPairImage from "../assets/heart-pair/heart-pair-home.png";
+import visionaryVerseImage from "../assets/visionary-verse.png";
 
 function Projects({ onViewSafeSynth, onViewHeartPair }) {
   return (
     <section id="projects" className="projects-section">
       <div className="projects-container">
+
+        {/* =========================
+            FEATURED PROJECTS
+        ========================= */}
 
         <div className="projects-heading">
           <p className="section-label">My Work</p>
@@ -163,6 +168,97 @@ function Projects({ onViewSafeSynth, onViewHeartPair }) {
           </div>
 
         </div>
+
+        {/* =========================
+            CONTRIBUTED PROJECTS
+        ========================= */}
+
+        <div className="projects-heading contributed-heading">
+          <p className="section-label">Team Experience</p>
+          <h2>Contributed Projects</h2>
+        </div>
+
+        <div className="projects-list">
+
+          {/* =========================
+              VISIONARY VERSE
+          ========================= */}
+
+          <div className="project-card contributed-project-card">
+
+            <div className="project-info">
+              <span className="project-tag">
+                Group Project
+              </span>
+
+              <h3>Visionary Verse</h3>
+
+              <p className="project-subtitle">
+                Digital Marketing Agency Management System
+              </p>
+
+              <p>
+                Visionary Verse is a web-based management system developed as
+                a group project for managing clients, projects, staff tasks,
+                approvals, notifications and agency operations.
+              </p>
+
+              <p>
+                My team role was Scheduling Manager, while my main development
+                contribution focused on the Client Management module.
+              </p>
+
+              <div className="project-tech">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>PDO</span>
+                <span>SQL</span>
+                <span>MVC</span>
+                <span>Fetch API</span>
+                <span>GitHub</span>
+              </div>
+
+              <div className="contribution-box">
+                <h4>My Contribution</h4>
+
+                <p>
+                  Developed the Client Management module, including backend
+                  controller and model functionality for creating, viewing,
+                  updating, activating, deactivating and deleting client
+                  records.
+                </p>
+
+                <p>
+                  Also implemented client search and status filtering,
+                  interactive edit forms and asynchronous client data loading
+                  using JavaScript and the Fetch API.
+                </p>
+              </div>
+
+              <div className="project-buttons contributed-buttons">
+                <a
+                 href="https://github.com/Keneth-Ravindu/Project-Visionary-Verse"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="secondary-btn contributed-github-btn"
+           >
+             View on GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="contributed-project-image">
+              <img
+                src={visionaryVerseImage}
+                alt="Visionary Verse web application login screen"
+              />
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
     </section>
   );
